@@ -1,0 +1,43 @@
+
+
+  #skills{
+    background-color: #F6F5F2;
+  }
+
+.cardProjects{
+
+  background-color:#FEFAF6 ;
+}
+
+h4{
+  text-decoration: none;
+  color:#074173;
+}
+
+
+.carousel-item img{
+  max-height: 600px; /* Ajusta el valor según tu preferencia */
+  object-fit: cover;
+
+}
+
+#about{
+  background-color: #FFF7FC;
+}
+
+
+.navbar2 {
+  padding: 10px 100px 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+.white {/* white en menu*/
+  color: white !important;
+}
+
+.content{
+
+  padding-top: 60px;
+}
