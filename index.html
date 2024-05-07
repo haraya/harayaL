@@ -11,13 +11,13 @@
 
   <script>
     function cambiarIdioma(idioma) {
-        if (idioma === 'es') {
-            window.location.href = 'index.html';
-        } else if (idioma === 'en') {
-            window.location.href = 'index_en.html';
-        }
+      if (idioma === 'es') {
+        window.location.href = 'index.html';
+      } else if (idioma === 'en') {
+        window.location.href = 'index_en.html';
+      }
     }
-</script>
+  </script>
 </head>
 
 <body>
@@ -51,17 +51,17 @@
             <li class="nav-item">
               <a class="nav-link white" href="#contact">Contacto</a>
             </li>
-           
+
             <li style="padding-right: 5px;">
               <button class="btn btn-primary btn-color" onclick="cambiarIdioma('es')">
-                <img src="images/spain.png" width="20px" alt="">   Español
-                  </button>
-          </li>
-          <li>
-              <button class="btn btn-primary btn-color" onclick="cambiarIdioma('en')">
-                <img src="images/usa.png" width="20px" alt=""> English
+                <img src="images/spain.png" width="20px" alt=""> Español
               </button>
-          </li>
+            </li>
+            <li>
+              <button class="btn btn-primary btn-color" onclick="cambiarIdioma('en')">
+                <img src="images/usa.png" width="20px" alt=""> Inglés
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -130,7 +130,7 @@
           <br>
         </p>
         <div class="text-center">
-          <a href="Hernan Araya L Perfil.pdf" class="btn btn-primary" target="_blank" >Descargar CV </a>
+          <a href="Hernan Araya L Perfil.pdf" class="btn btn-primary" target="_blank">Descargar CV </a>
         </div>
         <br> <br> <br>
 
@@ -148,8 +148,16 @@
             <div class="card cardProjects">
               <img src="images/houseSold.jpg" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Home sales analysis in the USA</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <h5 class="card-title">Análisis de ventas de casas en Estados Unidos</h5>
+                <p class="card-text">
+                  Nuestro proyecto utiliza un conjunto de datos completo que abarca décadas de transacciones
+                  inmobiliarias para proporcionar una visión profunda de cómo ha evolucionado el mercado con el tiempo
+                  Exploramos las ventas de casas en diferentes niveles de granularidad, desde cuatrimestres o meses
+                  hasta intervalos de 25 años, identificando patrones estacionales, tendencias a largo plazo y cambios
+                  estructurales. Además, segmentamos los datos en dos períodos distintos: antes y después del año 2000,
+                  para comprender cómo este hito ha influido en el mercado.
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Python, NumPy, Pandas, Matplotlib, Jupyter Notebooks</p>
                 <div class="text-center">
                   <a href="https://github.com/haraya/DataAnalysis_USHousingExplorer" class="btn btn-primary">Ver más</a>
                 </div>
@@ -163,7 +171,16 @@
               <img src="images/BMI.png" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
                 <h5 class="card-title">Análisis de Indice de Masa Corporal de 1000 Personas</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <p class="card-text">
+                  Este programa en Python utiliza la librería NumPy para generar 1000 datos aleatorios de peso y altura,
+                  luego calcula el Índice de Masa Corporal (IMC). Con Pandas se crea un dataframe que muestra el
+                  resultado del IMC junto ya sea (bajo peso, peso normal, sobrepeso
+                  u obesidad). Se utiliza Matplotlib para generar un gráfico de barras que muestra la cantidad de
+                  personas
+                  en cada categoría de composición corporal. Cada vez que se ejecuta el programa, los datos y el gráfico
+                  cambian
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Python, NumPy, Pandas, Matplotlib, Visualización, ETL</p>
                 <div class="text-center">
                   <a href="https://github.com/haraya/Proyecto_IMC_1000_Personas" class="btn btn-primary">Ver más</a>
                 </div>
@@ -177,9 +194,17 @@
               <img src="images/Natalidad-Mortalidad.png" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
                 <h5 class="card-title">Análisis de Esperanza de vida y Mortalidad Infantil</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <p class="card-text">
+                  Este proyecto analiza la relación entre la esperanza de vida y la mortalidad infantil en distintas
+                  regiones del mundo. El objetivo es visualizar cómo se distribuye la población mundial basándose en
+                  estos indicadores clave de salud pública. Al examinar conjuntamente la esperanza de vida y la
+                  mortalidad infantil, buscamos identificar patrones, disparidades y áreas de mejora en la salud y el
+                  bienestar a nivel global.
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Analisis-de-Esperanza-de-Vida-y-Mortalidad-Infantil" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/Analisis-de-Esperanza-de-Vida-y-Mortalidad-Infantil"
+                    class="btn btn-primary">Ver más</a>
                 </div>
 
               </div>
@@ -198,13 +223,14 @@
                 <p class="card-text">
                   El objetivo
                   principal es proporcionar una comprensión clara y fácilmente accesible de la estructura salarial y la
-                  distribución por departamentos para facilitar la toma de decisiones informadasutilizando Power BI. 
+                  distribución por departamentos para facilitar la toma de decisiones informadasutilizando Power BI.
                   Se enfoca en el salario, departamentos y otras
                   métricas relevantes para comprender la distribución de la población empleada. Consta de tres pestañas
                   de visualización: Total Colaboradores, Análisis de Sueldos y Evaluación de Desempeño. </p>
-                  <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Analisis-de-Datos-de-la-Empresa-SKU-DON" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/Analisis-de-Datos-de-la-Empresa-SKU-DON"
+                    class="btn btn-primary">Ver más</a>
                 </div>
 
               </div>
@@ -254,7 +280,7 @@
 
       </div>
       <div class="text-center">
-        <a href="#" class="btn btn-primary">Ver más proyectos</a>
+        <a href="https://github.com/haraya" class="btn btn-primary">Ver más proyectos</a>
       </div>
     </section>
 
@@ -267,42 +293,39 @@
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/python.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
                 <h5 class="card-title">Python</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/sql.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
                 <h5 class="card-title">SQL</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/visualizacion.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
-                <h5 class="card-title">Visualización</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
+                <h5 class="card-title">Visualización de Datos</h5>
+              </div>
+            </div>
+          </div>
 
+          
+
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="images/todo.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Manipulación de Datos</h5>
               </div>
             </div>
           </div>
@@ -312,45 +335,43 @@
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/powerBI.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
-                <h5 class="card-title">NumPy - Pandas</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+                <h5 class="card-title">Power BI</h5>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
-              <div class="card-body">
-                <h5 class="card-title">Matplotlib - Seaborn</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+              <img src="images/gitGithub.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Git y Github</h5>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
-              <div class="card-body">
-                <h5 class="card-title">REST API, CSV, JSON</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+              <img src="images/Jira-for-scrum.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Metod. SCRUM - Jira</h5>
               </div>
             </div>
           </div>
+
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="images/analitica.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Análitica</h5>
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
 

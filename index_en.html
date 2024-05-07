@@ -13,13 +13,13 @@
 
   <script>
     function cambiarIdioma(idioma) {
-        if (idioma === 'es') {
-            window.location.href = 'index.html';
-        } else if (idioma === 'en') {
-            window.location.href = 'index_en.html';
-        }
+      if (idioma === 'es') {
+        window.location.href = 'index.html';
+      } else if (idioma === 'en') {
+        window.location.href = 'index_en.html';
+      }
     }
-</script>
+  </script>
 
 </head>
 
@@ -55,16 +55,16 @@
               <a class="nav-link white" href="#contact">Contact</a>
             </li>
             <li style="padding-right: 5px;">
-                <button class="btn btn-primary btn-color" onclick="cambiarIdioma('es')">
-                  <img src="images/spain.png" width="20px" alt="">   Spanish
-                    </button>
+              <button class="btn btn-primary btn-color" onclick="cambiarIdioma('es')">
+                <img src="images/spain.png" width="20px" alt=""> Spanish
+              </button>
             </li>
             <li>
-                <button class="btn btn-primary btn-color" onclick="cambiarIdioma('en')">
-                  <img src="images/usa.png" width="20px" alt=""> English
-                </button>
+              <button class="btn btn-primary btn-color" onclick="cambiarIdioma('en')">
+                <img src="images/usa.png" width="20px" alt=""> English
+              </button>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -73,7 +73,7 @@
 
 
 
- 
+
   <div>
 
     <!-- CODE OF CAROUSEL 
@@ -116,25 +116,19 @@
         <h2 class="text-center"> ¡Hi!, I'm Hernán👋 </h2>
         <p>
 
-          Soy Ingeniero de Software apasionado por la tecnología, la <strong>inteligencia
-            artificial</strong>
-          y la <strong>ciencia de datos</strong>.
-          <br>
-          Mi experiencia esta basada en el desarrollo de software, y actualmente estoy enfocado en
-          aplicar mis habilidades y conocimientos al emocionante mundo del <strong>análisis de datos</strong>,
-          la <strong>ciencia de datos</strong>, el
-          <strong>machine learning</strong> , <strong> visualizacion de datos</strong> y la <strong>inteligencia
-            artificial</strong>.
-          <br>
-          Mi pasión por estas áreas me impulsa a explorar nuevas formas de
-          utilizar la tecnología para extraer información valiosa de los datos y generar impacto positivo en diversos
-          sectores.
-          <br>
-          ¡Explora mi repositorio para conocer más sobre mis proyectos!💻📊💡🚀🔍
+
+          I'm a Software Engineer passionate about technology, <strong>artificial intelligence</strong>,
+          and <strong>data science</strong>. <br>
+          My experience is based on software development, and currently, I'm focused on applying my skills and knowledge
+          to the exciting world of <strong>data analysis, data science, machine learning, data visualization </strong>
+          , and <strong>artificial intelligence</strong>. <br>
+          My passion for these areas drives me to explore new ways to use technology to extract valuable
+          information from data and make a positive impact in various sectors. <br>
+          Explore my repository to learn more about my projects!💻📊💡🚀🔍
           <br>
         </p>
         <div class="text-center">
-          <a href="Hernan Araya L Resume.pdf" class="btn btn-primary" target="_blank" >Download resume </a>
+          <a href="Hernan Araya L Resume.pdf" class="btn btn-primary" target="_blank">Download resume </a>
         </div>
         <br> <br> <br>
 
@@ -146,16 +140,24 @@
     <section id="projects" class="content">
       <div class="container">
 
-        <h2 class="text-center">Proyectos</h2>
+        <h2 class="text-center">Projects</h2>
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
             <div class="card cardProjects">
               <img src="images/houseSold.jpg" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Home sales analysis in the USA</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <h5 class="card-title">Analysis of home sales in the United States</h5>
+                <p class="card-text">
+                  Our project uses a comprehensive data set spanning decades of transactions
+                   real estate agencies to provide an in-depth look at how the market has evolved over time
+                   We explore home sales at different levels of granularity, from quarters to months
+                   up to 25-year intervals, identifying seasonal patterns, long-term trends and changes
+                   structural. Furthermore, we segment the data into two different periods: before and after the year 2000,
+                   to understand how this milestone has influenced the market.
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Python, NumPy, Pandas, Matplotlib, Jupyter Notebooks</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/DataAnalysis_USHousingExplorer" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/DataAnalysis_USHousingExplorer" class="btn btn-primary">see more</a>
                 </div>
 
               </div>
@@ -166,10 +168,19 @@
             <div class="card cardProjects">
               <img src="images/BMI.png" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Análisis de Indice de Masa Corporal de 1000 Personas</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <h5 class="card-title">Body Mass Index Analysis of 1000 People</h5>
+                <p class="card-text">
+                  This Python program uses the NumPy library to generate 1000 random weight and height data,
+                   then calculates the Body Mass Index (BMI). With Pandas a dataframe is created that shows the
+                   BMI result together with either (underweight, normal weight, overweight
+                   or obesity). Matplotlib is used to generate a bar chart showing the number of
+                   people
+                   in each body composition category. Every time the program is run, the data and the graph
+                   they change
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Python, NumPy, Pandas, Matplotlib, Visualization, ETL</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Proyecto_IMC_1000_Personas" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/Proyecto_IMC_1000_Personas" class="btn btn-primary">see more</a>
                 </div>
 
               </div>
@@ -180,10 +191,18 @@
             <div class="card cardProjects">
               <img src="images/Natalidad-Mortalidad.png" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Análisis de Esperanza de vida y Mortalidad Infantil</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
+                <h5 class="card-title">Analysis of Life Expectancy and Infant Mortality</h5>
+                <p class="card-text">
+                  This project analyzes the relationship between life expectancy and infant mortality in different
+                   regions of the world. The objective is to visualize how the world population is distributed based on
+                   these key public health indicators. By jointly examining life expectancy and
+                   infant mortality, we seek to identify patterns, disparities and areas of improvement in health and
+                   well-being at a global level.
+                </p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualization.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Analisis-de-Esperanza-de-Vida-y-Mortalidad-Infantil" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/Analisis-de-Esperanza-de-Vida-y-Mortalidad-Infantil"
+                    class="btn btn-primary">see more</a>
                 </div>
 
               </div>
@@ -198,17 +217,17 @@
             <div class="card cardProjects">
               <img src="images/EmpresaSKU-DON.png" class="card-img-top" alt="Proyecto 1" height="200" width="50">
               <div class="card-body">
-                <h5 class="card-title">Análisis de la empresa SKU-DON</h5>
+                <h5 class="card-title">SKU-DON Company Analysis</h5>
                 <p class="card-text">
-                  El objetivo
-                  principal es proporcionar una comprensión clara y fácilmente accesible de la estructura salarial y la
-                  distribución por departamentos para facilitar la toma de decisiones informadasutilizando Power BI. 
-                  Se enfoca en el salario, departamentos y otras
-                  métricas relevantes para comprender la distribución de la población empleada. Consta de tres pestañas
-                  de visualización: Total Colaboradores, Análisis de Sueldos y Evaluación de Desempeño. </p>
-                  <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
+                  The main objective is to provide a clear and easily accessible understanding of the salary structure and
+                   distribution by departments to facilitate informed decision making using Power BI.
+                   Focuses on salary, departments and others
+                   relevant metrics to understand the distribution of the employed population. It consists of three tabs
+                   visualization: Total Employees, Salary Analysis and Performance Evaluation. </p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualization.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Analisis-de-Datos-de-la-Empresa-SKU-DON" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/Analisis-de-Datos-de-la-Empresa-SKU-DON"
+                    class="btn btn-primary">see more</a>
                 </div>
 
               </div>
@@ -219,16 +238,16 @@
             <div class="card cardProjects">
               <img src="images/poblacionM.jpg" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Análisis de Población a nivel mundial</h5>
-                <p class="card-text">Nuestro proyecto de análisis de población a nivel mundial, potenciado por Power BI,
-                  te ofrece una ventana fascinante hacia la diversidad demográfica de cada continente y país. Desde
-                  visualizaciones interactivas que muestran la distribución poblacional hasta datos que revelan
-                  tendencias globales, nuestro análisis destaca las cifras clave y
-                  ofrece una comprensión profunda de cómo está cambiando el mundo</p>
-                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
+                <h5 class="card-title">Population Analysis worldwide</h5>
+                <p class="card-text">Our global population analysis project, powered by Power BI,
+                  offers you a fascinating window into the demographic diversity of each continent and country. From
+                  interactive visualizations that show population distribution to data that reveals
+                  global trends, our analysis highlights key figures and
+                  offers a deep understanding of how the world is changing</p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualization.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/Analisis_Poblacion_Continente_Pais" class="btn btn-primary">Ver
-                    más</a>
+                  <a href="https://github.com/haraya/Analisis_Poblacion_Continente_Pais" class="btn btn-primary">
+                    see more</a>
                 </div>
 
               </div>
@@ -239,15 +258,15 @@
             <div class="card cardProjects">
               <img src="images/mariobrosVideoGames Selling.png" class="card-img-top" alt="Proyecto 1" height="200">
               <div class="card-body">
-                <h5 class="card-title">Análisis de ventas de Videojuegos</h5>
-                <p class="card-text">El proyecto de análisis de ventas de videojuegos ofrece una visión completa del
-                  mercado, incluyendo ventas totales por juego, desglose por plataforma, tendencias temporales,
-                  comparativas entre juegos y regiones de ventas. Esta información permite entender el rendimiento de
-                  los juegos en diferentes contextos, ayudando a tomar decisiones estratégicas para maximizar el éxito
-                  comercial en un mercado en constante evolución</p>
-                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualización.</p>
+                <h5 class="card-title">VideoGame Sales Analysis</h5>
+                <p class="card-text">The video game sales analysis project offers a complete view of the
+                  market, including total sales by game, breakdown by platform, temporal trends,
+                  comparisons between games and sales regions. This information allows us to understand the performance
+                  of games in different contexts, helping to make strategic decisions to maximize success
+                  commercial in a constantly evolving market</p>
+                <p class="card-text"><strong>Skills:</strong> Power BI, Excel, ETL, Visualization.</p>
                 <div class="text-center">
-                  <a href="https://github.com/haraya/PowerBI-Dashboard-videojuegos" class="btn btn-primary">Ver más</a>
+                  <a href="https://github.com/haraya/PowerBI-Dashboard-videojuegos" class="btn btn-primary">see more</a>
                 </div>
 
               </div>
@@ -258,7 +277,7 @@
 
       </div>
       <div class="text-center">
-        <a href="#" class="btn btn-primary">Ver más proyectos</a>
+        <a href="https://github.com/haraya" class="btn btn-primary">See more projects</a>
       </div>
     </section>
 
@@ -267,46 +286,43 @@
     <section id="skills" class="content">
       <div class="container">
         <br> <br>
-        <h2 class="text-center">Habilidades</h2>
+        <h2 class="text-center">Skills</h2>
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/python.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
                 <h5 class="card-title">Python</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/sql.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
                 <h5 class="card-title">SQL</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/visualizacion.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
-                <h5 class="card-title">Visualización</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
+                <h5 class="card-title">Data Visualization</h5>
+              </div>
+            </div>
+          </div>
 
+
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="images/todo.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Data Manipulation</h5>
               </div>
             </div>
           </div>
@@ -316,45 +332,43 @@
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
+              <img src="images/powerBI.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
               <div class="card-body text-center">
-                <h5 class="card-title">NumPy - Pandas</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+                <h5 class="card-title">Power BI</h5>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
-              <div class="card-body">
-                <h5 class="card-title">Matplotlib - Seaborn</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+              <img src="images/gitGithub.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Git & Github</h5>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="images/bowser.png" class="card-img-top" alt="Proyecto 1" height="200">
-              <div class="card-body">
-                <h5 class="card-title">REST API, CSV, JSON</h5>
-                <p class="card-text">Breve descripción del proyecto 5.</p>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Ver más</a>
-                </div>
-
+              <img src="images/Jira-for-scrum.png" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Method. SCRUM - Jira</h5>
               </div>
             </div>
           </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="images/analitica.jpg" class="card-img-top imagen" alt="Proyecto 1" height="200">
+              <div class="card-body text-center">
+                <h5 class="card-title">Analytics</h5>
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
 
@@ -367,7 +381,7 @@
     <!--  CONTACT SECTION   -->
     <section id="contact" class="content">
       <div class="container text-center">
-        <h2>Contacto</h2>
+        <h2>Contact</h2>
         <div class="row">
           <div class="col-md-4 mb-4">
             <a href="mailto:hernan.araya96@outlook.com">
@@ -406,7 +420,7 @@
       <p style="font-size: 18px;">
         2024 ©Hernan Araya.
         <br>
-        Todos los derechos reservados.
+        All rights reserved.
       </p>
     </div>
   </footer>
@@ -418,30 +432,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-
-</body>
-
-</html>
- 
-
-
-
-  <!--  FOOTER SECTION   -->
-  <footer style="background-color: black; color: white; padding: 20px;">
-    <div class="container text-center">
-      <p style="font-size: 18px;">
-        2024 ©Hernan Araya.
-        <br>
-        Todos los derechos reservados.
-      </p>
-    </div>
-  </footer>
-
-
-  <!--  JAVASCRIPT LIBRARIES   -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 
